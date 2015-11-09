@@ -40,7 +40,7 @@ public class TicketMachine
     public void printTicketWithDiscount()
     {
         if (discount == true){
-            if(balance >= price) {
+            if(balance >= priceWithDiscount) {
                 // Simulate the printing of a ticket.
                 System.out.println("##################");
                 System.out.println("# The BlueJ Line");
